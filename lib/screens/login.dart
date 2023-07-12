@@ -49,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
             SizedBox(height: 20.0),
             ElevatedButton(
               onPressed: () {
-                // Perform login logic here
+                // Perform login logic here and
                 String email = _emailController.text;
                 String password = _passwordController.text;
                 print('Email: $email');
