@@ -12,6 +12,8 @@ class _SingleProductScreenState extends State<SingleProductScreen> {
         create: (_) => SingleProductViewModel(), child: SingleProductBody());
   }
 }
+<<<<<<<<< Temporary merge branch 1
+=========
 
 class SingleProductBody extends StatefulWidget {
   const SingleProductBody({Key? key}) : super(key: key);
@@ -264,3 +266,4 @@ class _SingleProductBodyState extends State<SingleProductBody> {
     });
   }
 }
+>>>>>>>>> Temporary merge branch 2
